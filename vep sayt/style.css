@@ -1018,6 +1018,12 @@ flex-direction: column;
 }
 }
 @media (max-width:1000px){
+    .last-text1{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
     .min_card{
         
         width: 50vw;
@@ -1084,9 +1090,15 @@ flex-direction: column;
 }
 
 @media (max-width:360px){
+    .last-text1{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-columns: auto auto;
+    }
     .sc_kotta{
         display: grid;
-        grid-template-columns: auto ;
+        grid-template-columns: auto auto ;
       }
       .bigacrd{
         display: grid;
@@ -1190,6 +1202,7 @@ flex-direction: column;
 }
 .min_card{
   width: 100vw;
+
 
 }
 .card_button{
