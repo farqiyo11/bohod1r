@@ -13,19 +13,19 @@ function renderData() {
     </div>
         `
     })
-//     var a = JSON.parse(localStorage.getItem('testObject'))
-//     console.log(a);
-//     a.map((item ,key)=>{    
-//     document.querySelector(".card_body").innerHTML += `
-//     <div class="min_card2">
-//           <img src="${item.img}" alt="">
-//           <p class="card_name2">${item.name}</p>
-//           <h4 class="card_text2">${item.brand}</h4>
-//           <h4 class="card_price2">${item.price}</h4>
-//           <button onclick="otme('${key}')" >delete</button>
-//     </div>
-//     `
-//    })
+    var a = JSON.parse(localStorage.getItem('testObject'))
+    console.log(a);
+    a.map((item ,key)=>{    
+    document.querySelector(".card_body").innerHTML += `
+    <div class="min_card2">
+          <img src="${item.img}" alt="">
+          <p class="card_name2">${item.name}</p>
+          <h4 class="card_text2">${item.brand}</h4>
+          <h4 class="card_price2">${item.price}</h4>
+          <button onclick="otme('${key}')" >delete</button>
+    </div>
+    `
+   })
 }
 function searchData() {
     var inputValue = document.querySelector('#valueSearch').value
@@ -61,9 +61,9 @@ function BuyCard(brand, name, price ,img) {
     buy.push(json4) 
     karzina()
    
-    // localStorage.setItem('testObject', JSON.stringify(buy))
+    localStorage.setItem('testObject', JSON.stringify(buy))
     
-    // // document.querySelector(".karzina").innerHTML += 
+    // document.querySelector(".karzina").innerHTML += 
 }
 
 function karzina() {

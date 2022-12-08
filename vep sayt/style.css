@@ -8,27 +8,18 @@
 .card_body::-webkit-scrollbar {
     width: 10px;
   }
-  
   /* Track */
   .card_body::-webkit-scrollbar-track {
     background: gold;
   }
-  
   /* Handle */
   .card_body::-webkit-scrollbar-thumb {
     background:yellow;
   }
-  
   /* Handle on hover */
   .card_body::-webkit-scrollbar-thumb:hover {
     background: #f0f;
   }
-
-  
-
-
-
-
   ::-webkit-scrollbar {
     width: 10px;
   }
@@ -311,8 +302,7 @@ color: #101828;
 /* .bigcard{} */
 .min_card{
     margin: 0 auto;
-   
-    height: 35vh;
+
     display: block;
     border: 1px solid #E4E7EC;
     /* box-shadow: 0px 0px 10px 10px ; */
@@ -893,7 +883,8 @@ color: #4BB4FF;
    
     }
     .min_card{
-        height: 50vh;
+       
+        height: 60vh;
     }
     .circle{
         display: none;
@@ -1031,7 +1022,7 @@ flex-direction: column;
 @media (max-width:1000px){
     .min_card{
         height: 40vh;
-        width: 60%;
+        width: 50%;
     }
     .h1_one{
         width: 75%;
@@ -1085,6 +1076,7 @@ flex-direction: column;
         margin-left: 3%;
       }
       .one_page{
+            width: 40%;
         display: block;
         margin-left: 25%;
       }
