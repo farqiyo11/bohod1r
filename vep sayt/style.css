@@ -1019,6 +1019,7 @@ flex-direction: column;
 }
 @media (max-width:1000px){
     .last-text1{
+        margin-left: 20%;
         justify-content: center;
         display: flex;
         flex-wrap: wrap;
@@ -1093,7 +1094,7 @@ flex-direction: column;
     .last-text1{
         justify-content: center;
         display: flex;
-        flex-wrap: wrap;
+        
         grid-template-columns: auto auto;
     }
     .sc_kotta{
