@@ -1020,7 +1020,7 @@ flex-direction: column;
 @media (max-width:1000px){
     .min_card{
         
-        width: 50%;
+        width: 50vw;
     }
     .h1_one{
         width: 75%;
@@ -1190,7 +1190,7 @@ flex-direction: column;
 }
 .min_card{
   width: 100vw;
- 
+
 }
 .card_button{
    
