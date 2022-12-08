@@ -882,10 +882,8 @@ color: #4BB4FF;
     font-size: 12px;
    
     }
-    .min_card{
-       
-        height: 60vh;
-    }
+    
+    
     .circle{
         display: none;
       }
@@ -1021,7 +1019,7 @@ flex-direction: column;
 }
 @media (max-width:1000px){
     .min_card{
-        height: 40vh;
+        
         width: 50%;
     }
     .h1_one{
@@ -1191,9 +1189,8 @@ flex-direction: column;
     display: none;
 }
 .min_card{
-  width: 50vw;
-    margin-right: 75%;
-    margin-left: -5%;
+  width: 100vw;
+ 
 }
 .card_button{
    
